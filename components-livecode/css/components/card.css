@@ -1,0 +1,55 @@
+/* style your cards here */
+.card {
+  background: white;
+  width: 300px;
+}
+
+.card-top {
+  padding: 10px;
+}
+
+.card-img {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cardtitle-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardtitle-wrapper h2 {
+  color: black;
+}
+.cardtitle-wrapper p {
+  color: blue;
+  font-size: 24px;
+}
+
+.card-bottom {
+  border-top: 1px solid gray;
+  padding: 24px;
+  text-align: center;
+}
+
+.fa-star {
+  color: orange;
+}
+
+.fa-heart{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+#last {
+  color: gray;
+}
+
+
+
+
+
